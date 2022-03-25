@@ -1,0 +1,37 @@
+.food-cart {
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  box-shadow: 2px 7px 7px 0px rgba(128, 128, 128, 0.25);
+}
+.food-cart img {
+  width: 95%;
+  border-radius: 5px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+}
+.addToCart-btn{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #59E678;
+    border-radius: 0 0 7px 7px;
+    cursor: pointer;
+    color: rgb(49, 49, 49);
+}
+.addToCart-btn:hover{
+    background-color: #A1EAB1;
+}
+
+.addCart{
+    margin-right: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.meal-info {
+  padding: 0 15px;
+}
